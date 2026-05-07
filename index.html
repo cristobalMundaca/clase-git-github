@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Clase Git & GitHub | Bienvenidos</title>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <header class="hero">
+    <nav class="navbar">
+      <a class="brand" href="./index.html">
+        <span class="brand-icon">⌁</span>
+        GitHub Lab
+      </a>
+
+      <div class="nav-links">
+        <a href="#actividad">Actividad</a>
+        <a href="#alumnos">Vistas</a>
+        <a href="#flujo">Flujo Git</a>
+      </div>
+    </nav>
+
+    <section class="hero-content">
+      <p class="eyebrow">Clase práctica de Git y GitHub</p>
+      <h1>Bienvenidos al laboratorio colaborativo</h1>
+      <p class="hero-text">
+        Cada alumno modificará una vista, dejará su marca en el código y subirá sus cambios
+        para construir juntos una página web final.
+      </p>
+
+      <div class="hero-actions">
+        <a class="btn primary" href="#alumnos">Ver vistas de alumnos</a>
+        <a class="btn secondary" href="#flujo">Ver pasos</a>
+      </div>
+    </section>
+  </header>
+
+  <main>
+    <section id="actividad" class="section">
+      <div class="section-heading">
+        <p class="eyebrow">Objetivo</p>
+        <h2>Aprender Git haciendo algo real</h2>
+        <p>
+          Esta página será editada por el curso. Cada estudiante trabajará sobre su propia vista,
+          hará un commit y enviará sus cambios al repositorio.
+        </p>
+      </div>
+
+      <div class="feature-grid">
+        <article class="feature-card">
+          <span class="feature-number">01</span>
+          <h3>Clonar</h3>
+          <p>Descargar el repositorio desde GitHub al computador.</p>
+        </article>
+
+        <article class="feature-card">
+          <span class="feature-number">02</span>
+          <h3>Modificar</h3>
+          <p>Editar una vista asignada y personalizarla con nombre, mensaje y estilo.</p>
+        </article>
+
+        <article class="feature-card">
+          <span class="feature-number">03</span>
+          <h3>Subir</h3>
+          <p>Guardar los cambios con commit y enviarlos al repositorio remoto.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="alumnos" class="section dark-section">
+      <div class="section-heading">
+        <p class="eyebrow">Vistas del curso</p>
+        <h2>Elige una página de alumno</h2>
+        <p>
+          Cada tarjeta lleva a una vista independiente. La idea es que cada alumno modifique solo
+          la vista que le corresponde.
+        </p>
+      </div>
+
+      <div class="student-grid">
+        <a class="student-card" href="./alumnos/alumno1.html">
+          <span>Alumno 1</span>
+          <small>Modificar vista</small>
+        </a>
+        <a class="student-card" href="./alumnos/alumno2.html">
+          <span>Alumno 2</span>
+          <small>Modificar vista</small>
+        </a>
+        <a class="student-card" href="./alumnos/alumno3.html">
+          <span>Alumno 3</span>
+          <small>Modificar vista</small>
+        </a>
+        <a class="student-card" href="./alumnos/alumno4.html">
+          <span>Alumno 4</span>
+          <small>Modificar vista</small>
+        </a>
+        <a class="student-card" href="./alumnos/alumno5.html">
+          <span>Alumno 5</span>
+          <small>Modificar vista</small>
+        </a>
+        <a class="student-card" href="./alumnos/alumno6.html">
+          <span>Alumno 6</span>
+          <small>Modificar vista</small>
+        </a>
+        <a class="student-card" href="./alumnos/alumno7.html">
+          <span>Alumno 7</span>
+          <small>Modificar vista</small>
+        </a>
+        <a class="student-card" href="./alumnos/alumno8.html">
+          <span>Alumno 8</span>
+          <small>Modificar vista</small>
+        </a>
+        <a class="student-card" href="./alumnos/alumno9.html">
+          <span>Alumno 9</span>
+          <small>Modificar vista</small>
+        </a>
+        <a class="student-card" href="./alumnos/alumno10.html">
+          <span>Alumno 10</span>
+          <small>Modificar vista</small>
+        </a>
+        <a class="student-card" href="./alumnos/alumno10.html">
+          <span>Alumno 11</span>
+          <small>Modificar vista</small>
+        </a>
+      </div>
+    </section>
+
+    <section id="flujo" class="section">
+      <div class="section-heading">
+        <p class="eyebrow">Comandos base</p>
+        <h2>Flujo de trabajo</h2>
+        <p>Estos son los comandos que practicarán durante la actividad.</p>
+      </div>
+
+      <div class="terminal-card">
+        <div class="terminal-header">
+          <span></span><span></span><span></span>
+        </div>
+        <pre><code>git clone URL_DEL_REPOSITORIO
+cd clase-git-github-alumnos
+
+git status
+git add .
+git commit -m "Alumno X modifica su vista"
+git pull origin main
+git push origin main</code></pre>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>Hecho para practicar Git, GitHub y colaboración en equipo.</p>
+  </footer>
+</body>
+</html>
